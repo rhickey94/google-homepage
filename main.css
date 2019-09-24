@@ -1,0 +1,29 @@
+.nav {
+    border: 2px solid black;
+    justify-content: space-between;
+}
+
+.search {
+    border: 2px solid blue;
+}
+
+.footer {
+    border: 2px solid purple;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid red;
+    display: flex;
+}
+
+.h-center {
+    justify-content: center;
+}
+
+.v-center {
+    align-items: center;
+}

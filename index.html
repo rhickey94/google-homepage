@@ -9,19 +9,39 @@
     <title>Google</title>
 </head>
 <body>
-    <nav>
-        <a href="#">About</a>
-        <a href="#">Store</a>
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
+    <nav class="nav container">
+            <span class="container">
+                <a href="#">About</a>
+                <a href="#">Store</a>
+            </span>
+            <span class="container">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+            </span>
     </nav>
-    <main class="search">
+    <main class="search container h-center v-center">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-        <form action="#" method="GET">
-            <input type="text" name="google" id="google" required>
-            <input type="button" value="Google Search">
-            <input type="button" value="I'm Feeling Lucky">
-        </form>
+        <div class="container">
+            <form action="#" method="GET">
+                <input type="text" name="google" id="google" required>
+                    <div class="container">
+                        <input type="button" value="Google Search">
+                        <input type="button" value="I'm Feeling Lucky">
+                    </div>
+            </form>
+        </div>
     </main>
+    <footer class="footer container">
+        <span class="container">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+        </span>
+        <span class="container">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </span>
+    </footer>
 </body>
 </html>
