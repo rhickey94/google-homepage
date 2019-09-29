@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
-    <title>Google</title>
+    <script src="https://kit.fontawesome.com/170d186e33.js" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
 <body>
-    <nav class="nav container">
-            <span class="container">
+    <header class="container split">
+        <span class="container">
                 <a class="linkSpace" href="#">About</a>
                 <a class="linkSpace" href="#">Store</a>
             </span>
@@ -18,34 +19,44 @@
                 <a class="linkSpace" href="#">Gmail</a>
                 <a class="linkSpace" href="#">Images</a>
             </span>
-    </nav>
-    <main class="search container h-center v-center">
-        <div id="middle" class="container">
-            <div class="container h-center">
+    </header>
+    <main class="container content">
+        <div class="container content">
+            <div class="testing">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
             </div>
-            <div class="container">
-                <form action="#" method="GET">
-                <input class="bar" type="text" name="google" id="google" required>
-                <div class="container h-center">
+            <div class="testing outersearchbar center">
+                <div class="container middlesearchbar">
+                    <span class="container">
+                        <i class="fas fa-search"></i>
+                    </span>
+                    <span class="container innersearchbar">
+                        <input type="text" size="50">
+                    </span>
+                    <span class="container">
+                        <a href="#">
+                            <i class="fas fa-microphone"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="testing">
                 <input type="button" value="Google Search">
                 <input type="button" value="I'm Feeling Lucky">
-                </div>
-                </form>
             </div>
         </div>
     </main>
-    <footer class="footer container">
+    <footer class="container split">
         <span class="container">
-            <a class="linkSpace" href="#">Advertising</a>
-            <a class="linkSpace" href="#">Business</a>
-            <a class="linkSpace" href="#">How Search works</a>
-        </span>
-        <span class="linkRight container">
-            <a class="linkSpace" href="#">Privacy</a>
-            <a class="linkSpace" href="#">Terms</a>
-            <a class="linkSpace" href="#">Settings</a>
-        </span>
+                <a class="linkSpace" href="#">Advertising</a>
+                <a class="linkSpace" href="#">Business</a>
+                <a class="linkSpace" href="#">How Search works</a>
+            </span>
+            <span class="linkRight container">
+                <a class="linkSpace" href="#">Privacy</a>
+                <a class="linkSpace" href="#">Terms</a>
+                <a class="linkSpace" href="#">Settings</a>
+            </span>
     </footer>
 </body>
 </html>
