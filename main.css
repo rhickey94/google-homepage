@@ -24,6 +24,16 @@ footer {
     border-top: 1px solid #e4e4e4;
 }
 
+.signin {
+    border: 1px solid #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+}
+
+#signin-btn {
+    padding: 5px 10px;
+}
+
 footer a {
     color: #5f6368;
 }
