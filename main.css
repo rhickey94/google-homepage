@@ -76,6 +76,7 @@ footer a {
 
 .center {
     justify-content: center;
+    text-align: center;
 }
 
 .innersearchbar {
