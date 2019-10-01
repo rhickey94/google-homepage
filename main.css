@@ -28,6 +28,7 @@ footer {
     border: 1px solid #4285f4;
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     color: white;
+    border-radius: 4px;
 }
 
 #signin-btn {
