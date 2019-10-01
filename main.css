@@ -55,7 +55,8 @@ footer a {
     border-radius: 50px;
     width: 600px;
     border: 1px solid #dfe1e5;
-    padding: 10px 0;
+    padding: auto 0;
+    height: 40px;
 }
 
 .outersearchbar:hover {
@@ -70,6 +71,14 @@ footer a {
 .innersearchbar {
     width: 70%;
     margin: 0 auto;
+    flex: 100%;
+    padding: 0 5px;
+}
+
+.whole {
+    flex: 100%;
+    background: transparent;
+    height: 40px;
 }
 
 .middlesearchbar {
@@ -110,4 +119,8 @@ input:focus {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: #222;
+}
+
+.icon {
+    margin: auto 5px;
 }
